@@ -1,0 +1,19 @@
+{
+  "name": "keymono-handlebars-helpers",
+  "version": "1.0.0",
+  "description": "A couple of handlebars helpers required on the BE and the FE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/key-mono/keymono-handlebars-helpers.git"
+  },
+  "author": "HackSoft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/key-mono/keymono-handlebars-helpers/issues"
+  },
+  "homepage": "https://github.com/key-mono/keymono-handlebars-helpers#readme"
+}
