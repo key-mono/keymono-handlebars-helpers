@@ -1,4 +1,4 @@
-const loadHelpers = (handlebars) => {
+const loadHelpers = handlebars => {
   handlebars.registerHelper('equal', function(lvalue, rvalue, options) {
     if (arguments.length < 3)
       throw new Error('Handlebars Helper equal needs 2 parameters');
@@ -8,7 +8,7 @@ const loadHelpers = (handlebars) => {
       return options.fn(this);
     }
   });
-  return handlebars
-}
+  return handlebars;
+};
 
-export default loadHelpers;
+module.exports = loadHelpers;
